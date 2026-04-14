@@ -9,8 +9,6 @@ Open-source Data 기반 맞춤형 임신 성공 여부 분류 모델 개발
 
 - 핵심 과제: 데이터 불균형 해소, 주요 피처 엔지니어링, 앙상블 모델 최적화
 
----
-
 
 ## 2. Repository Structure
 ```
@@ -29,8 +27,6 @@ final_submission.csv : 최종 예측 결과 제출 파일
 
 ```
 
----
-
 
 ## 3. Tech Stack & Methodology
 - Language: Python
@@ -42,13 +38,10 @@ final_submission.csv : 최종 예측 결과 제출 파일
     - 피처 중요도(Feature Importance) 분석을 통한 변수 선정
     - 임신 성공 확률 최적화를 위한 하이퍼파라미터 튜닝
 
----
-
 ## 4. Results
 - ROC-AUC Score: 0.7412452582
     - Baseline Score: 0.6890035245
 
----
 
 ## 5. How to Run
 리포지토리 복제:
@@ -56,5 +49,3 @@ final_submission.csv : 최종 예측 결과 제출 파일
 ```Bash
 git clone https://github.com/kyungddin/LG_Aimers_6.git
 ```
-
----
